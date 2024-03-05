@@ -13,6 +13,13 @@ body, html {
     margin: auto; /* Center the container */
 }
 
+/* Media query for larger screens (e.g., PCs) */
+@media (min-width: 768px) { /* Adjust the breakpoint as needed */
+    #isabelle-container {
+        width: 400px; /* Fixed width for larger screens */
+    }
+}
+
 #isabelle-img {
     width: 100%;
     height: 100%;
